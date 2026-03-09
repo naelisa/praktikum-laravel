@@ -7,4 +7,4 @@ Route::get('/', function () {
     return "Halo ini praktikum Laravel";
 });
 
-Route::get('/mahasiswa', [MahasiswaController::class, 'index']);
+Route::get('/matkuls', [MahasiswaController::class, 'index']);
